@@ -1,0 +1,278 @@
+<html>
+    <head>
+	   <title>Another animation</title>
+	   <link rel="stylesheet" href="animation-2.css">
+	   <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Handlee&family=Julius+Sans+One&family=Mynerve&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+		<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+	   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	  
+	
+	</head>
+	<body>
+		<div class="A-bg">
+			<nav>
+				<h1>Olivia</h1>
+				<menu>
+				
+					<div id="nav-bar">
+						<a>ILLUSTRATION </a>
+					</div>
+					
+					<div id="nav-bar1" onclick="brand()" >
+						<a>	BRANDING  
+							<i class="fa-sharp fa-solid fa-caret-down" id="icons"></i>
+						</a>
+					</div>
+					
+					<div  id="nav-bar2" onclick="openshope()">
+						<a>GALLERY 
+							<i class="fa-sharp fa-solid fa-caret-down" id="icons"></i>
+						</a>
+					</div>
+					<script>
+							function brand(){
+							
+								document.getElementById("shopee").style = "display:none;"
+								document.getElementById("about-hover").style = "display:none;"
+								document.getElementById("blogging").style = "display:none;"
+								
+								if(document.getElementById("branding").style.display !== "block" ){
+									
+									document.getElementById("branding").style.display = "block";
+									
+									}
+								else {
+									document.getElementById("branding").style.display = "none";
+									
+									}
+									
+							}
+							function openshope(){
+								document.getElementById("branding").style.display = "none"
+								document.getElementById("about-hover").style = "display:none;"
+								document.getElementById("blogging").style = "display:none;"
+								
+								if(document.getElementById("shopee").style.display !== "block" ){
+									document.getElementById("shopee").style.display = "block";
+									
+									}
+									else {
+									document.getElementById("shopee").style.display = "none";
+									
+									}
+							}
+							function blogg(){
+								document.getElementById("shopee").style = "display:none;"
+								document.getElementById("branding").style.display="none"
+								document.getElementById("about-hover").style = "display:none;"
+								
+								
+								if(document.getElementById("blogging").style.display !== "block" ){
+									document.getElementById("blogging").style.display = "block";
+									
+									}
+									else {
+									document.getElementById("blogging").style.display = "none";
+									
+									}
+							}
+							function abb(){
+								document.getElementById("shopee").style = "display:none;"
+								document.getElementById("branding").style.display="none"
+								document.getElementById("blogging").style = "display:none;"
+								
+								if(document.getElementById("about-hover").style.display !== "block" ){
+									document.getElementById("about-hover").style.display = "block";
+									
+									}
+									else {
+									document.getElementById("about-hover").style.display = "none";
+									
+									}
+							}
+				
+					</script>
+			
+					<div id="nav-bar3" onclick="blogg()">
+						<a>BLOG 
+							<i class="fa-sharp fa-solid fa-caret-down" id="icons"></i>
+						</a>
+					</div>
+					<div id="nav-bar4" onclick="abb()" >
+						<a>ABOUT 
+						<i class="fa-sharp fa-solid fa-caret-down" id="icons"></i>
+						</a>
+					</div>
+			
+					<div id="branding" >
+			
+						<div class="interiors">
+							<i class="ri-quill-pen-line"></i>
+							<p> Explore</p>
+						</div>
+						
+						<div class="interiors">
+							<i class="ri-magic-line"></i>
+							<p> Dunzo's </p>
+						</div>
+						<div class="interiors">
+							<i class="ri-sticky-note-line"></i>
+							<p>Notion</p>
+						</div>
+						<div class="interiors">
+							<i class="ri-map-2-line"></i>
+							<p>spike now</p>
+						</div>
+						<div class="interiors">
+							<i class="ri-emotion-laugh-line"></i>
+							<p> Headspace</p>
+						</div>
+					</div>
+					<div id="shopee" style="height:700px;">
+						<div class="interiors-1">
+							<img src= "images/gall2.webp" >
+						</div>
+						<div class="interiors-1">
+							<img src="images/gall5.avif">
+						</div>
+						<div class="interiors-1">
+							<img src="images/gall3.jpg"> 
+						</div>
+						<div class="interiors-1">
+							<img src="images/gall4.jpg">
+						</div>
+						<div class="interiors-1">
+							<img src="images/gall1.png" >
+						</div> 
+					</div>
+				
+					<div id="blogging" >
+						<div class="blog1">
+						<div class="icon-1"><i class="ri-rss-line"></i> </div>
+						<p>1.Illustration Art</p>
+						<a href="http://illustrationart.blogspot.com/">illustrationart.blogspot.com</a>
+						</div>
+						<div class="blog1">
+						<div class="icon-1"><i class="ri-pen-nib-fill"></i> </div>
+						<p>2.Illustrator's Lounge</p>
+						<a href="https://illustratorslounge.com/">illustratorslounge.com</a>
+						</div>
+						<div class="blog1">
+						<div class="icon-1"><i class="ri-quill-pen-line"></i> </div>
+						<p>3.Lines and Colors</p>
+						<a href="http://linesandcolors.com/">linesandcolors.com</a>
+						</div>
+						<div class="blog1">
+						<div class="icon-1"><i class="ri-brush-fill"></i> </div>
+						<p> 4.Children's illustration</p>
+						<a href="http://picturebookillustration.blogspot.com/">pictureillustration.blog.com</a>
+						</div>
+						<div class="blog1">
+						<div class="icon-1"><i class="ri-mark-pen-fill"></i> </div>
+						<p>5.Mattias Inks</p>
+						<a href="https://mattiasa.blogspot.com/">mattiasa.blogspot.com</a>
+						</div> 
+					
+					</div>	
+					<div id="about-hover" >
+						<div class="about-1">
+							<iframe width="942" height="530" src="https://www.youtube.com/embed/hf7_jLlfGik" title="What Is Illustration?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+							</iframe>
+						</div>
+						
+						<div class="about-1">
+							<iframe width="942" height="530" src="https://www.youtube.com/embed/IsF29OzFfZQ" title="EASY Character Illustration in Adobe Illustrator! 🎨 #illustrator #digitalart #illustration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+							</iframe>
+						</div>
+						
+						<div class="about-1">
+							<iframe width="942" height="530" src="https://www.youtube.com/embed/8fYDR_5avYo" title="Illustrator Tutorial: Flat Character with Texture" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+							</iframe>
+						</div>
+						
+						<div class="about-1">
+							<iframe width="942" height="530" src="https://www.youtube.com/embed/7TmU56pPtvI" title="Illustrator Tutorial: Flat Illustration With Grain And Noise Texture" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+							</iframe>
+						</div>
+						<div class="about-1">
+							<iframe width="848" height="530" src="https://www.youtube.com/embed/RbbQl2sU-ag" title="Learn to Draw Anything with Adobe Illustrator CC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+							</iframe>
+						</div>
+					
+					</div>
+				</menu>
+			</nav>
+		
+			<section>
+				<span>Learn more about</span>
+				<p class="heading">BRANDING</p>
+				<p class="writr">I offer full scale professional branding services for clients looking for a unique and polished aesthetic that’s both strategic and stunning.
+				</p>
+				<button>learn more</button>
+			</section>
+	
+		</div>
+	  
+		<div class="B-bg">
+			<article>
+				<span>App store</span>
+				<p class="heading">PRODUCTS</p>
+				<p class="writr">Check out my different collections of sticker apps I created now available on the app store!</p>
+				<button>Get the apps</button>
+			</article>
+		</div>
+	  
+		<div class="C-bg" style="background-image:url('images/c-bg.jpg');">
+			<figure>
+				<span>see the gallery and learn more</span>
+				<p class="heading">ILLUSTRATION</p>
+				<p class="writr">My illustration work hints at my fondness for vintage and mid-century art and may be described as quaint, feminine and playful yet sophisticated. I do work for surfaces, gift products, editorials and more - and aim to bring delight to people's daily lives.</p>
+				<button>learn more</button>
+			</figure>
+		</div>
+	  
+		<div class="D-bg">
+			<div class="aboutt">
+				<span>Meet Leah</span>
+				<p class="headinggg">ABOUT</p>
+				<p class="writrr">I'm a designer and illustrator currently residing in Austin, TX. Through my experience working as an Art Director at branding agencies, I've had the pleasure of working with national brands as well as working with smaller-sized clients with my own business. I'm equally fond of branding and illustration and absolutely love how thoughtful design can add so much delight to one's day, surroundings and memories. </p>
+			</div>
+			<img src="images/bb3e5c67140d228039ce873e15334d05.jpg" height="644">
+		</div>
+	  
+		<div class="E-bg">
+			<p class="big">Our illustrations</p>
+		</div>
+		<div class="F-bg">
+			<div class="boot-div">
+				<div class="boot-wr">
+					<pre>Love by users</pre>
+					<p class="bolddd"> 5,000+ customers and counting</p>
+					<p class="ww7">I've had the pleasure of working with national brands as well as working with smaller-sized clients with my own business. I'm equally fond of branding and illustration and absolutely love how thoughtful design can add so much delight to one's day</p>
+				</div>
+				<div class="boot-wl">
+					<img src="images/download (2).jpg" height="430">
+				</div>
+			</div>
+		</div>
+	  
+		<footer>
+			<div class="vh">
+				<p>Transform your visuals today</p>
+				<button> Get Started</button>
+			</div>
+		
+			<div class="H-bg">
+				<p>Olivia</p>
+				<div class="links">
+				<a href="#">Designers</a>
+				<a href="#">Projects</a>
+				<a href="#">Our services</a>
+				<a href="#"> Legal</a>
+				</div>
+			</div>
+		</footer> 	
+	</body>	
+</html>
